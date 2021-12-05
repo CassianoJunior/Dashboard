@@ -29,6 +29,7 @@
         "exceptions": [""]
       }],
       "react/jsx-curly-spacing": [2, { "when": "never", "children": true }],
-      "jsx-quotes": ["error", "prefer-single"]
+      "jsx-quotes": ["error", "prefer-single"],
+      "object-curly-newline": ["error", { "multiline": true }]
     }
 }

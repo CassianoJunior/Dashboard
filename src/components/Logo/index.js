@@ -1,7 +1,5 @@
 import { Heading } from '@chakra-ui/react';
 
-const Logo = () => (
-  <Heading size='md'>Application Logo</Heading>
-);
+const Logo = () => <Heading size='md'>Admin Dashboard</Heading>;
 
 export default Logo;
