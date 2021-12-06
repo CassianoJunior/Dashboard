@@ -1,5 +1,4 @@
 import { extendTheme } from '@chakra-ui/react';
-import { mode } from '@chakra-ui/theme-tools';
 
 const config = {
   initialColorMode: 'dark',
@@ -10,16 +9,8 @@ const config = {
     contrast: '#E2E8F0',
     complementary: '#90CDF4',
   },
-  style: {
-    global: {
-      body: {
-        bg: mode('#E2E8F0', '#171923'),
-        color: mode('#171923', '#E2E8F0'),
-      },
-    },
-  },
 };
 
-const theme = extendTheme({ config });
+const theme = extendTheme(config);
 
 export default theme;

@@ -25,14 +25,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <Flex
-        justify='center'
-        align='center'
-        m='auto'
-        maxW={['380px']}
-        py={4}
-        bg='highlight'
-      >
+      <Flex justify='center' align='center' m='auto' maxW={['380px']} py={4}>
         <IconButton
           isRound='true'
           size='sm'
@@ -55,10 +48,10 @@ const Sidebar = () => {
           </DrawerHeader>
           <DrawerBody my={10}>
             <Stack spacing={4}>
-              <Button leftIcon={<MdOutlineDashboard />} colorScheme='purple'>
+              <Button leftIcon={<MdOutlineDashboard />} bgColor='highlight'>
                 Dashboard
               </Button>
-              <Button leftIcon={<CgArrowsExchangeAlt />} colorScheme='purple'>
+              <Button leftIcon={<CgArrowsExchangeAlt />} bgColor='highlight'>
                 Convert to
               </Button>
             </Stack>
